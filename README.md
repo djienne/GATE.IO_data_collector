@@ -69,6 +69,24 @@ gateio_data/
 └── orderbooks_SOL_USDT.csv
 ```
 
+## Terminal output
+```
+============================================================
+DATA COLLECTION SUMMARY - 15:08:22
+============================================================
+Runtime: 0h 6m 0s
+Data collected:
+  ticker_updates: 913 (152.2/min)
+  orderbook_updates: 9,480 (1580.0/min)
+  trades: 4,753 (792.2/min)
+
+Buffer sizes by symbol:
+  BTC_USDT: 62 (10 prices, 8 trades, 44 orderbooks)
+  ETH_USDT: 91 (8 prices, 38 trades, 45 orderbooks)
+  SOL_USDT: 54 (6 prices, 6 trades, 42 orderbooks)
+============================================================
+```
+
 ## Data Format Examples
 
 ### Prices File
@@ -118,4 +136,5 @@ pip install websockets
 - Data is stored with microsecond precision timestamps
 - Order book maintains consistent depth levels
 - Network interruptions trigger automatic reconnection
+
 - All data is in CSV format for easy analysis
