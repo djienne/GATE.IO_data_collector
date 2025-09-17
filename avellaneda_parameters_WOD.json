@@ -1,0 +1,33 @@
+{
+    "ticker": "WOD",
+    "timestamp": "2025-09-17T13:19:52.727465",
+    "market_data": {
+        "mid_price": 0.06717000000000001,
+        "sigma": 0.05658268790392571,
+        "A": 0.1602993570189724,
+        "k": 3317.100619787422
+    },
+    "optimal_parameters": {
+        "gamma": 0.32563333333333333
+    },
+    "current_state": {
+        "time_remaining": 0.16666666666666666,
+        "inventory": 0,
+        "hours_window": 4,
+        "ma_window": 3
+    },
+    "calculated_values": {
+        "reservation_price": 0.06716982624202238,
+        "gap": 1.7375797763119483e-07,
+        "spread_base": 0.000776664572147405,
+        "half_spread": 0.0003883322860737025
+    },
+    "limit_orders": {
+        "ask_price": 0.06755798477011844,
+        "bid_price": 0.06678132019797105,
+        "delta_a": 0.0003881585280960713,
+        "delta_b": 0.0003885060440513337,
+        "delta_a_percent": 0.577874837123822,
+        "delta_b_percent": 0.5783922049297807
+    }
+}
