@@ -615,7 +615,7 @@ def main():
     """Main function"""
     # Configuration
     # Gate.io uses underscore format for trading pairs (e.g., BTC_USDT)
-    SYMBOLS = ["BTC_USDT", "ETH_USDT", "SOL_USDT"]  # Add more symbols as needed
+    SYMBOLS = ["BTC_USDT", "ETH_USDT", "SOL_USDT", "WOD_USDT"]  # Add more symbols as needed
     OUTPUT_DIR = "gateio_data"
     ORDERBOOK_DEPTH = 20  # Number of order book levels to capture (default: 20)
     MARKET = "spot"  # "spot" or "futures"
