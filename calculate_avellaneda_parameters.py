@@ -17,7 +17,7 @@ import json
 def parse_arguments():
     """Parse command line arguments."""
     parser = argparse.ArgumentParser(description='Calculate Avellaneda-Stoikov market making parameters')
-    parser.add_argument('ticker', nargs='?', default='WOD', help='Ticker symbol (default: WOD)')
+    parser.add_argument('ticker', nargs='?', default='ETH', help='Ticker symbol (default: ETH)')
     parser.add_argument('--hours', type=int, default=4, help='Frequency in hours to recalculate parameters (default: 4)')
     return parser.parse_args()
 
